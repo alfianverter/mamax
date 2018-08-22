@@ -5,7 +5,7 @@ const ytdl = require("ytdl-core");
 const opus = require("opusscript");
 const moment = require("moment");
  
-const prefix = 'm!';
+const prefix = ';';
 var commandcooldown = new Set();
 var queue = new Map();
  
